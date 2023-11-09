@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ConfirDelete">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="  Você Realmente quer"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Remover esse Cadastro?"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Não"
+            android:background="@drawable/botaovermelho"
+            android:layout_marginLeft="75dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Sim"
+            android:background="@drawable/botaoverde"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
